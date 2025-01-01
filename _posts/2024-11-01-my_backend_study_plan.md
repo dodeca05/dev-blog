@@ -22,6 +22,8 @@ categories: coding
 - spark ?
 - redis
 - NoSQL
+- JDBC
+    - 이건 스프링에서 쓰이는 거이지만 쓸 줄 아는 것 뿐만 아니라 어떻게 동작하는지 파악하는 것이 좋다. 
 
 # 메세지 핸들링
 - kafka
