@@ -1,6 +1,17 @@
 # Changelog
 
-## Unreleased
+## [4.27.1](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.27.1)
+
+### Enhancements
+
+- Add a "Share on Bluesky" button (#5179)
+- Add preset variables for modern font stack (#5033)
+
+### Bug Fixes
+
+- Fix wrong icon and color for X share button.
+
+## [4.27.0](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.27.0)
 
 ### Enhancements
 
@@ -11,6 +22,10 @@
 - The "if" means the default is never used (#4955)
 - For pages without a title, show the site title only once (#4959)
 - Use `documents-collection.html` partial in `home` layout.
+- Add Bulgarian translation. [#5003](https://github.com/mmistakes/minimal-mistakes/pull/5003)
+- Add provider and comments info to `single.html` layout for non-production. (#5068)
+- Tweak contrast skin $primary-color to adhere to WCAG guidelines. (#5126)
+- Update social share buttons to reflect Twitter rebranding to X (#5210)
 
 ### Bug Fixes
 
@@ -19,6 +34,10 @@
 - Fix reset stylesheet overruling `$doc-font-size`. [#4983](https://github.com/mmistakes/minimal-mistakes/issues/4983)
 - Fix JavaScript null error on home and splash layouts. [#4938](https://github.com/mmistakes/minimal-mistakes/issues/4938), [#4939](https://github.com/mmistakes/minimal-mistakes/pull/4939)
 - Fix bad &lt;figure&gt; HTML if "alt" contains quotes.
+- Fix extra newline generated in `_includes/post_pagination.html`.
+- Hide hidden links & remove the overlay when one is clicked. [#5042](https://github.com/mmistakes/minimal-mistakes/pull/5042)
+- Fix typo in "Configuration" (#5106)
+- bundle exec jekyll serve will fail if more than once (#5193)
 
 ### Documentation & Maintenance
 
